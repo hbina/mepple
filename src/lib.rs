@@ -1,3 +1,5 @@
+extern crate lazy_static;
+
 pub mod dictionary;
 
 #[derive(Debug)]

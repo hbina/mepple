@@ -12,6 +12,7 @@ description = "English dictionary as a library."
 exclude = ["data/", "build.rs", "build.rs"]
 
 [dependencies]
+lazy_static = "1.4.0"
 
 [build-dependencies]
 sqlite = "0.25.1"
