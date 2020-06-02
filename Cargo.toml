@@ -9,6 +9,8 @@ description = "English dictionary as a library."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+exclude = ["data/", "build.rs", "build.rs"]
+
 [dependencies]
 
 [build-dependencies]
